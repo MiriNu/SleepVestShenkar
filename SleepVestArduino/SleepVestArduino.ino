@@ -51,6 +51,6 @@ void ledStripe(int level){
 bool isUp(){
 
 }
-int i = 0
+
 
 
