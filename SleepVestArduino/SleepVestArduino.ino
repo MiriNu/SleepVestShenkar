@@ -9,11 +9,19 @@
 void setup() {
   // put your setup code here, to run once:
 
+  Serial.begin(115200);//please dont change this, and also, don't use Serial.
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  char str[3];
+  fetchData(str);// this fetchs the data, keep it on the top of the loop
+  
+  
+  
 
+  delay(200);
+  memset(str,0,sizeof(str));//this function must stay at the end of the loop.
 }
 
 
@@ -50,6 +58,19 @@ void ledStripe(int level){
 
 bool isUp(){
 
+}
+
+// this function gets the data from the nodemcu
+
+void fetchData(char str[]) {
+  int i = 0;
+  if (Serial.available()){
+    delay(1);
+    while (Serial.available()){
+      str[i++] = Serial.read();
+    }
+    
+  }
 }
 
 
