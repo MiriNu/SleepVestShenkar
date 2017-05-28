@@ -17,7 +17,6 @@ void loop() {
 }
 
 
-
 // TODO: Function to make noise to wake up (optional) :
 
 void ring(){
