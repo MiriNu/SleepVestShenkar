@@ -51,6 +51,7 @@ void setup() {
 }
  
 void loop() {
+  char theData = '0';
   // Check if a client has connected
   WiFiClient client = server.available();
   if (!client) {
@@ -60,6 +61,10 @@ void loop() {
   // Wait until the client sends some data
   while(!client.available()){
     delay(1);
+  }
+
+  if (Serial.available()) {
+    theData = Serial.read();
   }
  
   // Read the first line of the request
@@ -73,9 +78,11 @@ void loop() {
  }
  
   client.println("HTTP/1.1 200 OK");
-  client.println("Content-Type: text/html");
+  client.println("Content-Type: application/json");
   client.println("");  
-  client.println("<!DOCTYPE HTML>");
-  client.println("<html>");
+
+  client.print("{\"isUp\" : \"" );
+  client.print(theData);
+  client.println("\"}");
 }
  
