@@ -8,9 +8,6 @@
 
 import Foundation
 
-protocol SleepRoutineDelegate {
-    func updateLabels()
-}
 
 enum SleepType: String {
     case uberman = "uberman"
@@ -22,8 +19,7 @@ enum SleepType: String {
 }
 
 class SleepRoutine {
-    
-    var delegate: SleepRoutineDelegate?
+  
     
     var url: URL {
         get {
@@ -58,8 +54,8 @@ class SleepRoutine {
                             self.wakeUp = dic["wakeUp"]! as! Bool
                             self.ledLevel = dic["ledLevel"]! as! Int
                         }
-                        print(self.ledLevel)
-                        self.delegate?.updateLabels()
+                        
+                        
                     } catch {
                         print("json error : \(error)")
                     }

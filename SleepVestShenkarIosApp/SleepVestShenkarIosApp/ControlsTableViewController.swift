@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ControlsTableViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource, SleepRoutineDelegate {
+class ControlsTableViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     @IBOutlet weak var wakeUpSwitch: UISwitch!
     @IBOutlet weak var sleepSwitch: UISwitch!
@@ -18,7 +18,7 @@ class ControlsTableViewController: UITableViewController, UIPickerViewDelegate, 
     @IBOutlet weak var sleepPickerView: UIPickerView!
     
 
-    let sleepRoutine = SleepRoutine()
+    var sleepRoutine: SleepRoutine!
     
     let pickerData: [SleepType] = [SleepType.biphasic, SleepType.monophasic, SleepType.dymaxion, SleepType.everyman, SleepType.uberman]
     
@@ -28,19 +28,27 @@ class ControlsTableViewController: UITableViewController, UIPickerViewDelegate, 
         super.viewDidLoad()
         sleepPickerView.delegate = self
         sleepPickerView.dataSource = self
-        sleepRoutine.delegate = self
+        let controller = self.tabBarController as! tabbarViewController
+        sleepRoutine = controller.sleepRoutine
         sleepRoutine.datafetch()
         sleepPickerView.isHidden = true
-        timer = Timer(timeInterval: 2, repeats: true, block: { _ in //fetch data every 2 sec and update UI
+        
+        updateLabels()
+    
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        timer = Timer.scheduledTimer(withTimeInterval: 0.2, repeats: true, block: {_ in
+           
             self.sleepRoutine.datafetch()
+            self.updateLabels()
         })
-        
-        print(mark)
-        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        
         timer.invalidate() //invalidate the timer before view disappear
     }
 

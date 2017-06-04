@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0330A5771EE48F6500E23CD6 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330A5761EE48F6500E23CD6 /* mainViewController.swift */; };
+		0330A5791EE4985F00E23CD6 /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330A5781EE4985F00E23CD6 /* tabbarViewController.swift */; };
 		03AA49DF1EE458400020356B /* ControlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA49DE1EE458400020356B /* ControlsTableViewController.swift */; };
 		03AA49E11EE459EA0020356B /* SleepRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA49E01EE459EA0020356B /* SleepRoutine.swift */; };
 		03B4C7051EDB23FF00309D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4C7041EDB23FF00309D60 /* AppDelegate.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0330A5761EE48F6500E23CD6 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		0330A5781EE4985F00E23CD6 /* tabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
 		03AA49DE1EE458400020356B /* ControlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsTableViewController.swift; sourceTree = "<group>"; };
 		03AA49E01EE459EA0020356B /* SleepRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepRoutine.swift; sourceTree = "<group>"; };
 		03B4C7011EDB23FF00309D60 /* SleepVestShenkarIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepVestShenkarIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				03B4C7041EDB23FF00309D60 /* AppDelegate.swift */,
+				0330A5761EE48F6500E23CD6 /* mainViewController.swift */,
+				0330A5781EE4985F00E23CD6 /* tabbarViewController.swift */,
 				03AA49E01EE459EA0020356B /* SleepRoutine.swift */,
 				03AA49DE1EE458400020356B /* ControlsTableViewController.swift */,
 				03B4C7081EDB23FF00309D60 /* Main.storyboard */,
@@ -143,6 +149,8 @@
 				03B4C7051EDB23FF00309D60 /* AppDelegate.swift in Sources */,
 				03AA49E11EE459EA0020356B /* SleepRoutine.swift in Sources */,
 				03AA49DF1EE458400020356B /* ControlsTableViewController.swift in Sources */,
+				0330A5791EE4985F00E23CD6 /* tabbarViewController.swift in Sources */,
+				0330A5771EE48F6500E23CD6 /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
