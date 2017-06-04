@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1648"
+               BlueprintIdentifier = "OBJ_1650"
                BuildableName = "SleepServer"
                BlueprintName = "SleepServer"
                ReferencedContainer = "container:SleepServer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1648"
+            BlueprintIdentifier = "OBJ_1650"
             BuildableName = "SleepServer"
             BlueprintName = "SleepServer"
             ReferencedContainer = "container:SleepServer.xcodeproj">
@@ -47,7 +47,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/marinpostma/Desktop/SleepServer"
+      customWorkingDirectory = "/Users/marinpostma/Desktop/SleepVestShenkar/SleepServer"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -56,7 +56,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1648"
+            BlueprintIdentifier = "OBJ_1650"
             BuildableName = "SleepServer"
             BlueprintName = "SleepServer"
             ReferencedContainer = "container:SleepServer.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1648"
+            BlueprintIdentifier = "OBJ_1650"
             BuildableName = "SleepServer"
             BlueprintName = "SleepServer"
             ReferencedContainer = "container:SleepServer.xcodeproj">

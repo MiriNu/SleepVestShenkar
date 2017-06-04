@@ -1,9 +1,11 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AF2A9E6755590F385A7A3DCCB4B65D918AA1AACD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "DCD994A20FFF69E73D7DE28EB512BBF004934554" : 9223372036854775807,
+    "AF2A9E6755590F385A7A3DCCB4B65D918AA1AACD" : 9223372036854775807,
     "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807,
     "E2306DAE0C98D148736A05084B6FAB44F03B4909" : 9223372036854775807,
     "E71C9F673135F52EEF9E6F1B8D0895D4850F2E7F" : 9223372036854775807,
@@ -13,50 +15,56 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8B5F7E3-411C-469C-BDDB-07A7A769DB16",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "DCD994A20FFF69E73D7DE28EB512BBF004934554" : "SleepServer\/.build\/checkouts\/Perfect-COpenSSL.git--4744624199947727386\/",
-    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "SleepServer\/.build\/checkouts\/Perfect-HTTP.git--6392294032632002019\/",
-    "E2306DAE0C98D148736A05084B6FAB44F03B4909" : "SleepServer\/.build\/checkouts\/PerfectLib.git-3712999737848873669\/",
-    "E71C9F673135F52EEF9E6F1B8D0895D4850F2E7F" : "SleepServer\/.build\/checkouts\/Perfect-Crypto.git--5196635702121641122\/",
-    "C4127C9B9C8FDF608B532AD72407863CE2797629" : "SleepServer\/.build\/checkouts\/Perfect-HTTPServer.git--6671958091389663080\/",
-    "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : "SleepServer\/.build\/checkouts\/Perfect-Thread.git-6541237758607105655\/",
-    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "SleepServer\/.build\/checkouts\/Perfect-Net.git-3268755499654502659\/"
+    "DCD994A20FFF69E73D7DE28EB512BBF004934554" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/Perfect-COpenSSL.git--4744624199947727386\/",
+    "AF2A9E6755590F385A7A3DCCB4B65D918AA1AACD" : "SleepVestShenkar\/",
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/Perfect-HTTP.git--6392294032632002019\/",
+    "E2306DAE0C98D148736A05084B6FAB44F03B4909" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/PerfectLib.git-3712999737848873669\/",
+    "E71C9F673135F52EEF9E6F1B8D0895D4850F2E7F" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/Perfect-Crypto.git--5196635702121641122\/",
+    "C4127C9B9C8FDF608B532AD72407863CE2797629" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/Perfect-HTTPServer.git--6671958091389663080\/",
+    "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/Perfect-Thread.git-6541237758607105655\/",
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "SleepVestShenkar\/SleepServer\/.build\/checkouts\/Perfect-Net.git-3268755499654502659\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SleepServer",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SleepServer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SleepServer\/SleepServer.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/Perfect-Thread.git-6541237758607105655",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/Perfect-Thread.git-6541237758607105655",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "615FD99B652E80AC2E813EEEE7964BA10A9886D5"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/Perfect-Net.git-3268755499654502659",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/Perfect-Net.git-3268755499654502659",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F1260245BD69EFA9A05D126763C86280510C6E1"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/Perfect-HTTP.git--6392294032632002019",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/Perfect-HTTP.git--6392294032632002019",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9197B75B1BC29921D6E3B1CCDC2B258350009F3A"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/Perfect-HTTPServer.git--6671958091389663080",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LeMarin95\/SleepVestShenkar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF2A9E6755590F385A7A3DCCB4B65D918AA1AACD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/Perfect-HTTPServer.git--6671958091389663080",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4127C9B9C8FDF608B532AD72407863CE2797629"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/Perfect-COpenSSL.git--4744624199947727386",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/Perfect-COpenSSL.git--4744624199947727386",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DCD994A20FFF69E73D7DE28EB512BBF004934554"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/PerfectLib.git-3712999737848873669",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/PerfectLib.git-3712999737848873669",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2306DAE0C98D148736A05084B6FAB44F03B4909"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepServer\/.build\/repositories\/Perfect-Crypto.git--5196635702121641122",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/marinpostma\/Desktop\/SleepVestShenkar\/SleepServer\/.build\/repositories\/Perfect-Crypto.git--5196635702121641122",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E71C9F673135F52EEF9E6F1B8D0895D4850F2E7F"
     }
